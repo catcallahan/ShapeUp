@@ -1,0 +1,48 @@
+.fixedCanvas {
+    height: 600px;
+    width: 600px;
+    background-color: lightblue;
+    margin: 0;
+    position: relative;
+   overflow: hidden;
+}
+
+.inputContainer {
+    margin: 5em;
+}
+
+.shape {
+    position: absolute;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.square {
+    background-color: rgba(144, 238, 144, 0.801);
+    position: absolute;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.rectangle {
+    background-color: rgba(255, 0, 0, 0.596);
+    position: absolute;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.circle {
+    background-color: rgba(132, 0, 255, 0.596);
+    position: absolute;
+    overflow: hidden;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.triangle {
+    position: absolute;
+    overflow: hidden;
+    height: 0;
+    width: 0;
+
+}

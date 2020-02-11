@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shape Up Shape Out</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+<div class="inputContainer">
+    <div class="input-group">
+<!-- Inputs -->
+        <!-- Square -->
+        <div class="input-group-prepend">
+          <span class="input-group-text">Square</span>
+        </div>
+        <input type="text" placeholder="Side Length" aria-label="Side Length" class="form-control" id = "squareInput">
+        <button type="button" class="btn btn-outline-info" id= "sqrBut">Add Square</button>
+      </div>
+
+      <!-- Rectangle -->
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Rectangle</span>
+        </div>
+        <input type="text" placeholder="Width" aria-label="Width" class="form-control" id = "recWidthInput">
+        <input type="text" placeholder="Height" aria-label="Height" class="form-control" id = "recHeightInput">
+        <button type="button" class="btn btn-outline-info" id= "recBut">Add Rectangle</button>
+      </div>
+
+      <!-- Circle -->
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Circle</span>
+        </div>
+        <input type="text" placeholder="Radius" aria-label="Radius" class="form-control" id = "circInput">
+        <button type="button" class="btn btn-outline-info" id= "cirBut">Add Circle</button>
+      </div>
+
+      <!-- Triangle -->
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Triangle</span>
+        </div>
+        <input type="text" placeholder="Side Length" aria-label="Side Length" class="form-control" id = "triInput">
+        <button type="button" class="btn btn-outline-info" id= "triBut">Add Triangle</button>
+      </div>
+
+    <!-- Canvas and Side Panel -->
+    <div class="canvasContainer row">
+        <!-- Canvas Input -->
+        <div class="canvas col">
+            <div class="fixedCanvas"></div>
+        </div>
+        <!-- Side Panel -->
+        <div class="sidePanel col">
+            <h5>Shape:</h5>
+            <input type="text" value = "px">
+            <h5>Width:</h5>
+            <input type="text" value = "px">
+            <h5>Height:</h5>
+            <input type="text" value = "px">
+            <h5>Radius:</h5>
+            <input type="text" value = "px">
+            <h5>Area:</h5>
+            <input type="text" value = "px">
+            <h5>Perimeter:</h5>
+            <input type="text" value = "px">
+        </div>
+    </div>
+    
+</div>
+
+
+
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
